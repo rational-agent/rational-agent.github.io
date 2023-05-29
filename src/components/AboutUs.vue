@@ -1,9 +1,13 @@
 <template>
-<section id="abount">
-          <div id="about" class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h3 class="display-6 fw-normal">Mission</h3>
+<section id="about">
+
+  <div class="row">
+    <h1><span class="label label-default">About</span></h1>
+  </div>
+
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <p class="fs-5 text-muted">
-          We are Rational Agent, and your ambition is to create systems that assist users doing just
+          We are rational-agent, and your ambition is to create systems that assist users doing just
           <a href="#" data-toggle="tooltip"
             title="a person or entity that always aims to perform optimal actions based on given premises and information.">that</a>:
           always making
@@ -11,9 +15,9 @@
           advanced economic models, our aim is to improve the financial situation of our clients and users using
           cutting edge software.
         </p>
-      </div>
+  </div>
       <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h3 class="display-6 fw-normal">Business principles</h3>
+        <h3 class="display-6 fw-normal">Approach</h3>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 justify-content-center">
           <div class="col d-flex align-items-center">
             <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
@@ -45,11 +49,6 @@
               <p>As our company continues to exist, we will gradually accumulate a large software portfolio.</p>
             </div>
           </div>
-
-        </div>
-
-        <h3 class="display-6 fw-normal">Development principles</h3>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 justify-content-center">
           <div class="col d-flex align-items-start">
             <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
               <use xlink:href="#cpu-fill"></use>

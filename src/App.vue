@@ -6,7 +6,7 @@
 
     <TheBanner />
 
-    <div class="container marketing">
+    <div class="container">
 
       <OurSolutions />
       <OurServices />
