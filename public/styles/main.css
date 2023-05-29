@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('roboto-light.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body, html {
+    height: 100%;
+    background: #f3f6f9;
+    font-family: 'Roboto Light';
+    font-size: 14px;
+    overflow-x: hidden;
+}
+h1 {
+  margin-bottom: 50px;
+}
+header, nav {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header > div,
+header > div > div,
+header > div > div > nav {
+   height: inherit;
+}
+section {
+  margin-bottom: 75px;
+}
+#banner {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  margin-bottom: 25px;
+}
