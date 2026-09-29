@@ -1,24 +1,18 @@
-# website
+# Angular rewrite for rational-agent.github.io
 
-## Project setup
-```
+## Local development
+
+```bash
 npm install
+npm start
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Then open http://localhost:4200
 
-### Compiles and minifies for production
-```
+## Production build
+
+```bash
 npm run build
-rm -rf docs
-mv ./dist ./docs
-rm -rf ./dist
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+This branch contains a full Angular conversion of the original Vue marketing site.
